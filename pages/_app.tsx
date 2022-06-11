@@ -36,13 +36,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         defaultTitle="Ilham Rajab | Personal Portofolio"
         description="Hey! I'm Ilham, a UI/UX Designer, Game Developer and a Student!"
         openGraph={{
-          url: "#",
+          url: "https://portofolio-ilhamsrajab.vercel.app/",
           title: "Ilham Rajab | Personal Portofolio",
           description:
             "Hey! I'm Ilham, a UI/UX Designer, Game Developer and a Student!",
           images: [
             {
-              url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
+              url: "#",
               width: 800,
               height: 420,
               alt: "Ilham Rajab | Personal Portofolio",

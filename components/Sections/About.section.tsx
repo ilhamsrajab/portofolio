@@ -9,16 +9,15 @@ const About: NextComponentType = () => {
   return (
     <div className="my-8 flex flex-row items-center justify-between px-3 font-sen">
       <div>
-        <p className="text-3xl font-bold text-white">Ilham Rajab.</p>
+        <p className="text-3xl font-bold text-white">ilham rajab.</p>
         <p className="mt-1 text-lg text-gray-300">
-          UI/UX Designer, Game Developer and a Student.
+          UI/UX Designer, Game Developer and a Student
         </p>
 
         <p className="mt-4 text-gray-400">
-          Computer graduate who likes new challenges to learn and has a strong <br />
-          interest in design and programming. Skilled in working on several UI/UX, <br />
-          websites, and games developing. Has received a certificate of expertise in the fields of design, <br />
-          computer networks, and artificial intelligence.
+          Loves new challenges to learn and has a strong interest in design and programming. <br />
+          Skilled in working on several UI/UX, websites, and games developing. <br />
+          Has received certificate of expertises in the fields of design, computer networks, and artificial intelligence.
         </p>
 
         {/* <Link href="https://blog.anurag.tech" passHref>
@@ -44,8 +43,9 @@ const About: NextComponentType = () => {
         </Link> */}
       </div>
 
-      <div className="hidden custom:block ">
+      <div className="hidden custom:block">
         <Image
+        draggable="false"
           src="/assests/avatar.png"
           width="112"
           height="112"

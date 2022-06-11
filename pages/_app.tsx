@@ -31,39 +31,39 @@ function MyApp({ Component, pageProps }: AppProps) {
                 `}
       </Script>
       <NextSeo
-        title="Anurag | Frontend Developer"
-        titleTemplate="Anurag | Frontend Developer"
-        defaultTitle="Anurag | Frontend Developer"
-        description="Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!"
+        title="Ilham Rajab"
+        titleTemplate="Ilham Rajab | Personal Portofolio"
+        defaultTitle="Ilham Rajab | Personal Portofolio"
+        description="Hey! I'm Ilham, a UI/UX Designer, Game Developer and a Student!"
         openGraph={{
-          url: "https://www.anurag.tech/",
-          title: "Anurag | Frontend Developer",
+          url: "#",
+          title: "Ilham Rajab | Personal Portofolio",
           description:
-            "Hey! I'm Anurag, A Frontend Developer, Blogger and a Student!",
+            "Hey! I'm Ilham, a UI/UX Designer, Game Developer and a Student!",
           images: [
             {
               url: "https://res.cloudinary.com/ddum5vpp3/image/upload/v1643532760/og-image_dwcwhp.png",
               width: 800,
               height: 420,
-              alt: "Anurag | Frontend Developer",
+              alt: "Ilham Rajab | Personal Portofolio",
             },
           ],
         }}
         twitter={{
-          handle: "@kr_anurag_",
-          site: "@kr_anurag_",
+          handle: "@ilham__rajab",
+          site: "@ilham__rajab",
           cardType: "summary_large_image",
         }}
         additionalMetaTags={[
           {
             property: "keywords",
             content:
-              "Frontend Developer, anurag, anuragkr, Web Developer, web development, web developer, blogger, tech enthusiast, open source",
+              "game developer, ui designer, ux designer, ui/ux designer, ilham rajab, ilham syahidatul r, ilham syahidatul rajab, web developer, web development, blogger, tech enthusiast, open source",
           },
         ]}
       />
       <Head>
-        <link rel="icon" type="image/png" href="/assests/avatar.png" />
+        <link rel="icon" type="image/png" href="/assests/favicon.png" />
       </Head>
       <Component {...pageProps} />
     </>

@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           url: "https://portofolio-ilhamsrajab.vercel.app/",
           title: "Ilham Rajab | Personal Portofolio",
           description:
-            "Hey! I'm Ilham, a UI/UX Designer, Game Developer and a Student!",
+            "Hey! I'm Ilham, a Web Designer",
           images: [
             {
               url: "#",
@@ -58,7 +58,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           {
             property: "keywords",
             content:
-              "game developer, ui designer, ux designer, ui/ux designer, ilham rajab, ilham syahidatul r, ilham syahidatul rajab, web developer, web development, blogger, tech enthusiast, open source",
+              "ui designer, ux designer, ui/ux designer, ilham rajab, ilham syahidatul r, ilham syahidatul rajab, web developer, web development, blogger, tech enthusiast, open source",
           },
         ]}
       />
